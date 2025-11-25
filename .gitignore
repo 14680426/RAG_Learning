@@ -1,0 +1,54 @@
+# Python相关
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+sdist/
+develop-eggs/
+
+# Jupyter相关
+.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# 本地模型文件 - 这些文件太大，不适合上传到GitHub
+Models/maidalun/
+Models/ms-marco-MiniLM-L-6-v2/
+Models/Qwen/
+Models/temp/
+Models/._____temp/
+Models/.lock/
+Models/Models/
+Models/AI-ModelScope/
+
+# 微调输出模型
+Models/model_outdir/
+
+# 数据集文件 - 这些文件可能包含敏感信息或太大不适合上传
+Dataset/PDF/
+
+# 向量数据库文件 - 这些可以重新生成，且通常很大
+chroma_db/
+**/chroma.sqlite3
+
+# 结果文件
+results/
+
+# Checkpoints
+checkpoints/
+
+# 系统文件
+.DS_Store
+Thumbs.db
